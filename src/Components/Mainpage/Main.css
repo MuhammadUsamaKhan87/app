@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,200;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,500&display=swap');
+
+
+.Main_1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+    background-image: url('images/bgimg2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main_img {
+    width: 60rem;
+    height: 40rem;
+    border-radius: 3rem;
+}
+
+.main_div h1 {
+    font-size: 5rem;
+    margin-top: 5rem;
+    color: rgb(33, 5, 55);
+}
+
+.main_div h2 {
+    font-size: 5rem;
+    transform: skew(-15deg);
+    background-color: #9933ff;
+    color: white;
+    width: 45rem;
+    text-align: center;
+}
+
+.main_div p {
+    font-size: 1.5rem;
+    padding-left: 1;
+    box-sizing: border-box;
+    width: 50rem;
+    margin-top: 3rem;
+    color: rgba(1, 1, 1, 0.6);
+}
+
+.main_btn {
+    background-color: #9933ff;
+    color: aliceblue;
+    font-size: 1.5rem;
+    border: 1px solid #9933ff;
+    padding: 1rem;
+    border-radius: 2px;
+    margin-top: 2rem;
+    margin-left: .5rem;
+}
+
+.mainC_div {
+    padding-left: 3rem;
+}
+
+.mainC_div .heading {
+    color: #2b00ff;
+    margin-top: 6rem;
+}
+
+.MainC_img {
+    margin-top: 7rem;
+}
+
+.span {
+    font-size: 5rem;
+    transform: skew(-15deg);
+    background-color: #9933ff;
+    color: white;
+}
+
+.Azm_img {
+    width: 10rem;
+    border-radius: 5rem;
+}
+
+.azm_card {
+    display: flex;
+}
+
+.Amz_h1 {
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 7rem;
+}
+
+.Amz_h2 {
+    background-color: #9933ff;
+    font-size: 5rem;
+    transform: skew(-15deg);
+    color: white;
+    text-align: center;
+    width: 25rem;
+    height: 8rem;
+    margin-top: 7rem;
+    margin-left: 2rem;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.azm_card {
+    justify-content: center;
+}
+
+.azm_card_n {
+    padding: 2rem;
+    margin: 5rem;
+    text-align: center;
+    transition: .5s;
+}
+
+.Main_about {
+    display: flex;
+}
+
+.Main_about h1 {
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+.Main_about span {
+    color: #9933ff;
+}
+
+.azm_card_n h1 {
+    font-size: 2rem;
+}
+
+.azm_card_n p {
+    font-size: 1rem;
+    color: rgba(1, 1, 1, 0.6);
+}
+
+.azm_card_n a {
+    font-size: 1rem;
+}
+
+
+@media (max-width:1100px) and (min-width:700px) {
+    .main_img {
+        width: 40rem;
+        height: 30rem;
+        border-radius: 3rem;
+    }
+
+    .Main_about h1 {
+        font-size: 1.5rem;
+        margin: 1rem;
+    }
+
+    .Main_1 {
+        padding: 3rem;
+    }
+
+    .main_div .mainh {
+        font-size: 3rem;
+        margin-top: 3.5rem;
+        color: rgb(33, 5, 55);
+    }
+
+    .main_div h2 {
+        font-size: 1.5rem;
+        transform: skew(-15deg);
+        width: 15rem;
+    }
+
+    .main_div p {
+        font-size: 1rem;
+        box-sizing: border-box;
+        width: 25rem;
+        margin-top: 1rem;
+    }
+
+    .Amz_h1 {
+        text-align: center;
+        font-size: 3rem;
+        margin-top: 7rem;
+    }
+
+    .Amz_h2 {
+        font-size: 3rem;
+        transform: skew(-15deg);
+        color: white;
+        text-align: center;
+        width: 15rem;
+        height: 5rem;
+        margin-top: 7rem;
+        margin-left: 1.5rem;
+    }
+
+
+    .main_btn {
+        font-size: 1rem;
+        padding: .5rem;
+        border-radius: 2px;
+        margin-top: 1rem;
+        margin-left: .5rem;
+    }
+}
+
+@media (max-width:700px) and (min-width:550px) {
+    .main_img {
+        width: 30rem;
+        height: 15rem;
+        border-radius: 3rem;
+    }
+
+
+
+    .Main_1 {
+        padding: 3rem;
+    }
+
+    .main_div h1 {
+        font-size: 1rem;
+        margin-top: 2.5rem;
+        color: rgb(33, 5, 55);
+    }
+
+    .main_div h2 {
+        font-size: 1rem;
+        transform: skew(-15deg);
+        width: 15rem;
+    }
+
+    .main_div p {
+        font-size: .7rem;
+        box-sizing: border-box;
+        width: 15rem;
+        margin-top: 1rem;
+    }
+
+
+}
+
+@media (max-width:550px) {
+    .Main_1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Main_about {
+        flex-direction: column;
+    }
+
+    .Main_about h {
+        font-size: 16px;
+    }
+
+    .main_img {
+        width: 30rem;
+        height: 23rem;
+        border-radius: 3rem;
+        margin-top: 2rem;
+    }
+
+    .MainC {
+        flex-direction: column-reverse;
+    }
+
+    .main_div .mainh {
+        font-size: 2rem;
+        margin-top: 2rem;
+        color: rgb(33, 5, 55);
+    }
+
+    .main_div h2 {
+        font-size: 2rem;
+        transform: skew(-15deg);
+        width: 17rem;
+    }
+
+    .main_div p {
+        font-size: 1.2rem;
+        box-sizing: border-box;
+        width: 25rem;
+        margin-top: 1rem;
+    }
+
+    .main_btn {
+        font-size: 1rem;
+        padding: .5rem;
+        border-radius: 2px;
+        margin-top: 1rem;
+        margin-left: .5rem;
+    }
+
+    .Amz_h1 {
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 7rem;
+    }
+
+    .Amz_h2 {
+        font-size: 2rem;
+        text-align: center;
+        width: 10rem;
+        height: 4rem;
+        margin-left: 1rem;
+    }
+
+    .azm_card {
+        flex-direction: column;
+    }
+
+    .azm_card_n {
+        padding: 1rem;
+    }
+
+}

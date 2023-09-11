@@ -1,0 +1,58 @@
+/* Styling for buttons */
+.button {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.button .btn_but {
+    display: flex;
+}
+
+.button h1 {
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.button h2 {
+    font-size: 3rem;
+    margin: 1rem;
+    background-color: #9933ff;
+    transform: skew(-15deg);
+    color: white;
+}
+
+.menu-button {
+    background-color: #9933ff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cart-button {
+    background-color: #FF6600;
+    /* Change the color for the Cart button */
+}
+
+.favorite-button {
+    background-color: #FF3366;
+    /* Change the color for the Favorite button */
+}
+
+/* Responsive styles */
+@media (max-width: 968px) {
+    .button {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-button {
+        width: 100%;
+    }
+}
